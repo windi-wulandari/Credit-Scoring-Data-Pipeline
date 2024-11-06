@@ -14,7 +14,7 @@ This project emphasizes:
 - AWS S3 implementation as a storage solution
 - Integration between AWS S3 and Databricks
 - PySpark and SQL Spark usage for data processing
-- Basic data cleansing and visualization
+- Data cleansing and visualization
 
 ## **Dataset**
 The dataset used in this project comes from the [Kaggle Credit Scoring Dataset](https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/473704). This [dataset](https://github.com/windi-wulandari/Credit-Scoring-Data-Pipeline/tree/main/dataset) has been modified and can be accessed in the dataset file within this repository to accommodate:
