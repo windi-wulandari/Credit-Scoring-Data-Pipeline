@@ -17,25 +17,25 @@ This project emphasizes:
 - Basic data cleansing and visualization
 
 ## **Dataset**
-The dataset used in this project comes from the [Kaggle Credit Scoring Dataset](kaggle_link_to_be_added). This dataset has been modified and can be accessed in the dataset file within this repository to accommodate:
+The dataset used in this project comes from the [Kaggle Credit Scoring Dataset](kaggle_link_to_be_added). This [dataset](https://github.com/windi-wulandari/Credit-Scoring-Data-Pipeline/tree/main/dataset) has been modified and can be accessed in the dataset file within this repository to accommodate:
 - Computational limitations
 - Technical pipeline demonstration focus
 - PySpark and SQL Spark implementation examples
 
 # **Detailed Documentation**
 The project is divided into several sections that can be explored further:
-1. [AWS S3 Setup](link_to_aws_setup.md)
+1. [AWS S3 Setup]([link_to_aws_setup.md](https://github.com/windi-wulandari/Credit-Scoring-Data-Pipeline/blob/main/AWS%20S3%20Setup.md))
    - Bucket configuration
    - Credential setup
    - Bucket policy configuration for secure access
    - Dataset upload
 
-2. [Databricks Setup](link_to_databricks_setup.md)
+2. [Databricks Setup]([link_to_databricks_setup.md](https://github.com/windi-wulandari/Credit-Scoring-Data-Pipeline/blob/main/Databricks%20Setup.md))
    - Creation of computation resources
    - AWS S3 connection
    - Workspace setup
 
-3. [Data Processing with PySpark & SQL](link_to_processing.md)
+3. [Data Processing with PySpark & SQL]([link_to_processing.md](https://github.com/windi-wulandari/Credit-Scoring-Data-Pipeline/blob/main/Credit_scoring_notebook.py))
    - Schema creation and definition
    - DataFrame structure introduction
    - Data cleaning
