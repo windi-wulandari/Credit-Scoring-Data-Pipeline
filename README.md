@@ -17,7 +17,7 @@ This project emphasizes:
 - Basic data cleansing and visualization
 
 ## **Dataset**
-The dataset used in this project comes from the [Kaggle Credit Scoring Dataset](kaggle_link_to_be_added). This [dataset](https://github.com/windi-wulandari/Credit-Scoring-Data-Pipeline/tree/main/dataset) has been modified and can be accessed in the dataset file within this repository to accommodate:
+The dataset used in this project comes from the [Kaggle Credit Scoring Dataset](https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/473704). This [dataset](https://github.com/windi-wulandari/Credit-Scoring-Data-Pipeline/tree/main/dataset) has been modified and can be accessed in the dataset file within this repository to accommodate:
 - Computational limitations
 - Technical pipeline demonstration focus
 - PySpark and SQL Spark implementation examples
