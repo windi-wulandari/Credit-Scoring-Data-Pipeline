@@ -111,28 +111,28 @@ After creating the bucket, we need to configure the bucket policy to manage acce
 
 ## **Policy Component Analysis**
   1. **Version**: "2012-10-17"
-   - Standard version of AWS policy language
-   - Latest version supporting all policy features
+     - Standard version of AWS policy language
+     - Latest version supporting all policy features
 
   2. **Statement**: Main block defining one or more permissions
    
   3. **Effect: "Allow"**
-   - Permits access for defined actions
-   - Alternative is "Deny" to block access
+     - Permits access for defined actions
+     - Alternative is "Deny" to block access
 
   4. **Principal: "*"**
-   - Allows access from all users/services
-   - Used to enable Databricks integration
-   - Should be balanced with proper access controls at object level
+     - Allows access from all users/services
+     - Used to enable Databricks integration
+     - Should be balanced with proper access controls at object level
 
   5. **Action**: Defines allowed operations
-   - `s3:GetObject`: Retrieve/read objects from bucket
-   - `s3:ListBucket`: View list of objects in bucket
-   - `s3:PutObject`: Upload objects to bucket
+     - `s3:GetObject`: Retrieve/read objects from bucket
+     - `s3:ListBucket`: View list of objects in bucket
+     - `s3:PutObject`: Upload objects to bucket
 
   6. **Resource**: Determines policy scope
-   - `arn:aws:s3:::windiwwd-projects`: Refers to the bucket itself
-   - `arn:aws:s3:::windiwwd-projects/*`: Refers to all objects within the bucket
+     - `arn:aws:s3:::windiwwd-projects`: Refers to the bucket itself
+     - `arn:aws:s3:::windiwwd-projects/*`: Refers to all objects within the bucket
 
 ## **Configuration Purpose**
 This policy is configured to:
@@ -147,10 +147,10 @@ This policy is configured to:
 
 ## **Security Considerations**
 While this policy provides relatively open access, several security practices are implemented:
-1. Access limited to specific bucket
-2. Only necessary operations allowed
-3. No permissions for object deletion
-4. No permissions for bucket configuration modification
+  1. Access limited to specific bucket
+  2. Only necessary operations allowed
+  3. No permissions for object deletion
+  4. No permissions for bucket configuration modification
 
 
 ## **Uploading Data to AWS S3**
@@ -160,8 +160,8 @@ While this policy provides relatively open access, several security practices ar
   2. Click the "Upload" button on the left panel
   3. Drag and drop the CSV file or click "Add files" to select file
   4. Review default upload settings:
-   - Storage class: Standard
-   - Encryption: Using bucket default configuration (SSE-S3)
+     - Storage class: Standard
+     - Encryption: Using bucket default configuration (SSE-S3)
   5. Click "Upload" to start the process
 
 ## **Upload Verification**
