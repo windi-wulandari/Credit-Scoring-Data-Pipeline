@@ -78,7 +78,8 @@ This temporary view is crucial because it:
 - Is temporary and only available during the session
 
 Example of Spark SQL implementation for analysis:
-```contract_type = spark.sql("""
+```
+contract_type = spark.sql("""
 SELECT 
     NAME_CONTRACT_TYPE,
     SUM(CASE WHEN TARGET = 0 THEN 1 ELSE 0 END) AS target_0_count,
@@ -89,6 +90,7 @@ SELECT
 FROM credit_data
 GROUP BY NAME_CONTRACT_TYPE
 """)
+
 ```
 
 This query uses Spark SQL to calculate the count and percentage of TARGET values (0 and 1) for each NAME_CONTRACT_TYPE in a previously created temporary view. The results include:
